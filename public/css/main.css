@@ -1,0 +1,58 @@
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    /* top:0; right:0; bottom:0; left:0 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    /* evita que el modal pegue a los bordes */
+}
+
+.modal {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    /* ocupa todo hasta el límite */
+    max-height: 90vh;
+    /* límite vertical */
+    overflow-y: auto;
+    /* scroll vertical si el contenido es muy grande */
+    max-width: 90%;
+}
+
+section.main-section {
+    padding: 10px 20px;
+}
+
+.box.momento {
+    width: 35%;
+}
+
+.box-child_data.tittle {
+    height: 2rem;
+}
+
+.box-data_song {
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin-bottom: 1pc;
+}
+
+.box.indice {
+    margin-right: 12px;
+    padding: 0.25rem;
+    border: 1px solid pink;
+    border-radius: 50%;
+    width: 17px;
+    text-align: center;
+}
+
+.box.letra {
+    padding: 0.5rem 0;
+    border-top: 1px solid;
+    margin-top: .25rem;
+}

@@ -1,0 +1,109 @@
+/* MaterialDesignIcons.com */
+@font-face {
+    font-family: "Material Design Icons";
+    src: url("../fonts/materialdesignicons-webfont.eot?v=7.1.96");
+    src: url("../fonts/materialdesignicons-webfont.eot?#iefix&v=7.1.96") format("embedded-opentype"), url("../fonts/materialdesignicons-webfont.woff2?v=7.1.96") format("woff2"), url("../fonts/materialdesignicons-webfont.woff?v=7.1.96") format("woff"), url("../fonts/materialdesignicons-webfont.ttf?v=7.1.96") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .mdi:before,
+  .mdi-set {
+    display: inline-block;
+    font: normal normal normal 24px/1 "Material Design Icons";
+    font-size: inherit;
+    text-rendering: auto;
+    line-height: inherit;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .mdi-account-check::before {
+    content: "\F0008";
+  }
+  .mdi-message-text-clock::before {
+    content: "\F1173";
+  }
+  .mdi-message-star::before {
+    content: "\F069A";
+  }
+
+  .mdi-account-question::before {
+    content: "\F0B59";
+  }
+  .mdi-share::before {
+    content: "\F0496";
+  }
+  .mdi-share-off::before {
+    content: "\F0F23";
+  }
+  .mdi-24px.mdi-set, .mdi-24px.mdi:before {
+    font-size: 24px;
+  }
+  
+.mdi-phone-remove::before {
+  content: "\F152F";
+}
+.mdi-phone::before {
+  content: "\F03F2";
+}
+
+.mdi-cellphone-check::before {
+  content: "\F17FD";
+}
+.mdi-cellphone-remove::before {
+  content: "\F094D";
+}
+
+.mdi-clock-plus-outline::before {
+  content: "\F1862";
+}
+.mdi-card-account-details-outline::before {
+  content: "\F0DAB";
+}
+.mdi-card-account-details-star::before {
+  content: "\F02A3";
+}
+.mdi-history::before {
+  content: "\F02DA";
+}
+
+.mdi-form-select::before {
+  content: "\F1401";
+}
+
+.mdi-form-textbox-password::before {
+  content: "\F07F5";
+}
+
+.mdi-chart-areaspline::before {
+  content: "\F0127";
+}
+
+.mdi-clipboard-check-multiple::before {
+  content: "\F1263";
+}
+
+.mdi-shield-edit::before {
+  content: "\F11A0";
+}
+.mdi-shield-refresh::before {
+  content: "\F00AA";
+}
+
+.mdi-content-copy::before {
+  content: "\F018F";
+}
+.mdi-window-close::before {
+  content: "\F05AD";
+}
+
+.mdi-eye-off::before {
+  content: "\F0209";
+}
+.mdi-eye::before {
+  content: "\F0208";
+}
+
+.mdi-account-arrow-up::before {
+  content: "\F1867";
+}
