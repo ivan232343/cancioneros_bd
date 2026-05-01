@@ -23,6 +23,20 @@
     max-width: 90%;
 }
 
+.music_response-lyric {
+    text-align: center;
+    overflow-y: auto;
+    max-height: 60vh;
+}
+
+.music_response-title {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border: 1px solid black;
+    margin: 0 0 1rem 0;
+}
+
 section.main-section {
     padding: 10px 20px;
 }
